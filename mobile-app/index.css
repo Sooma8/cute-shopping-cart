@@ -1,0 +1,84 @@
+/*@keyframes exampple {
+    from {background-color: rgb(255, 206, 206);}
+    to {background-color: rgb(223, 154, 154);}
+    
+}*/
+
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(223, 154, 154);
+    user-select: none;
+
+    /*animation-name: exampple;
+    animation-duration: 10s;*/
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    margin: 30px auto;
+}
+
+img{
+    width: 150px;
+    margin: 0 auto;
+}
+
+input{
+    color: rgb(165, 42, 89);
+    background-color: rgb(254, 254, 254);
+    border: none;
+    border-radius: 8px;
+    padding: 15px;
+    font-size: 20px;
+    text-align: center;
+    margin: 10px 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+button{
+    color: white;
+    background-color: rgb(165, 42, 77);
+    border: none;
+    border-radius: 8px;
+    padding: 15px;
+    font-size: 20px;
+    text-align: center;
+    margin: 10px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(141, 35, 65);
+}
+
+ul {
+    display: flex;
+    padding: 0px;
+    flex-wrap: wrap;
+    list-style-type: none;
+    gap: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul li {
+    font-size: 20px;
+    padding: 15px;
+    background-color: white;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    border:none;
+    flex-grow: 1;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(165, 42, 89);
+}
+
+ul li:hover {
+    background-color: rgb(255, 250, 215);
+    cursor: pointer;
+}
